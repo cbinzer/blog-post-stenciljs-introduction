@@ -1,0 +1,29 @@
+{
+  "name": "blog-post-stenciljs-introduction",
+  "version": "0.0.1",
+  "description": "Einführung in StencilJS",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/blog-post-stenciljs-introduction/blog-post-stenciljs-introduction.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.12.5"
+  },
+  "license": "MIT",
+  "homepage": "https://cbinzer.de/blog/einfuehrung-stenciljs/"
+}
